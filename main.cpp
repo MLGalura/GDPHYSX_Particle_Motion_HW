@@ -220,7 +220,7 @@ int main(void)
 		GL_DYNAMIC_DRAW
 	);
 
-	//Creates an offset for the vertex array
+	//Creates an offset for the vertex array 
 	GLintptr uvPtr = 6 * sizeof(GLfloat);
 	GLintptr normPtr = 3 * sizeof(GLfloat);
 
