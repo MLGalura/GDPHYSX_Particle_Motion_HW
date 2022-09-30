@@ -261,7 +261,7 @@ int main(void)
 		
 		//Applies the gravity
 		if (gravityState == 1)
-			yPos = yPos + (-0.5 * time);
+			yPos = yPos + (-0.05 * time);
 
 		//Applies the uniform matrices from the vertex and fragment shaders while using the respective shader program
 		unsigned int transformLoc = glGetUniformLocation(shaderProgram, "transform");
